@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .gradient-bg {
+    @apply bg-gradient-to-br from-primary to-secondary;
+  }
+
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+}
